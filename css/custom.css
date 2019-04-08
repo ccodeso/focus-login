@@ -1,0 +1,114 @@
+html, body{
+    height: 100%;
+}
+.bg-orange{
+    background-color: #FF6900
+}
+
+.bg-dark{
+    background-color: #222222
+}
+
+.btn {
+    border-radius: 3rem ;
+}
+
+.my-auto{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+h3.discover-title{
+    color: white;
+    text-align: center
+}
+a.text-dark, .btn-link.text-dark{
+    color: #838383 !important;
+    
+}
+.bg-dark{
+    color: #dbdbdb
+}
+
+.max-w-550{
+    max-width: 550px;
+    margin: 0 auto;
+}
+/** SIGNUP **/
+.signup h3, .confirmation h3, .finish h3{
+    color: #dbdbdb;
+    text-align: center;
+}
+.signup-form{
+    color: #dbdbdb !important;    
+}
+.signup-form label{
+    color: #838383;
+    font-size: 11px 
+}
+.signup-form label.custom-control-label{
+    color: #dbdbdb;
+}
+.signup-form  a,  .btn-link{
+    text-decoration: underline
+}
+
+
+
+.signup-form input.form-control{
+    background-color: transparent;
+    color: #dbdbdb;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid #838383;
+    padding-bottom: 10px;
+    font-size: 20px
+}
+.signup-form input.form-control::placeholder{
+    color: #dbdbdb;
+}
+.signup-form input.checkbox{
+    background-color: #F4C304
+}
+
+.btn-yellow{
+    background-color: #F4C304;
+    min-width: 150px;
+    font-weight: 500
+}
+
+
+.signup .custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+    background-color:#F4C304;
+}
+.signup .custom-checkbox .custom-control-input:checked~.custom-control-label::after{
+    background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='black' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E");
+}
+
+
+/** SIGNUP **/
+.btn-switch .btn{
+    color: #dbdbdb !important;
+    border-color: #5B5B5B;
+    font-weight: 700;
+    font-size: 11px;
+    min-width: 80px
+}
+.btn-switch .btn.active{
+    background-color: #5B5B5B
+}
+
+@media(min-width: 768px){
+    .btn-switch{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+}
+@media(max-width: 767px){
+    .btn-switch{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    }
+}

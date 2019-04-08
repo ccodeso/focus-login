@@ -8,14 +8,53 @@
     <script src="js/vue.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/main.js"></script>
+    
+
+    <script src="components/signup.js"></script>
+    <script src="components/confirmation.js"></script>
+    <script src="components/finish.js"></script>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/custom.css">
+
+    <script src="js/main.js"></script>
 </head>
 <body>
 
-    
+    <div class="container-fluid h-100">
+        <div class="row h-100">
+            <div class="col-sm-6 bg-orange h-100">
+
+                <div class="d-flex h-100 align-items-center">
+                    <div class="m-auto">
+                        <h3 class="discover-title">Discover the most exciting places <br>
+                            on our planet
+                        </h3>
+                        <br>
+                        <img src="wheel.jpg" alt="" class="responsive">
+                    </div>
+                </div>
+                
+            </div>
+
+
+            <div class="col-sm-6 bg-dark h-100">
+
+                <div class="btn-switch">
+                    <div class="btn-group">
+                        <a href="#" class="btn btn-sm active" role="button"> SIGN UP</a>
+                        <a   href="#" class="btn btn-sm" role="button"> LOG IN</a>
+                    </div>
+                </div>
+                <div class="d-flex h-100 align-items-center">
+                    <div class="w-100 max-w-550">
+                        <div id="app" ></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     
 </body>
 </html>
